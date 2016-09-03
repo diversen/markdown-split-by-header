@@ -1,0 +1,26 @@
+{
+    "name": "diversen/markdown-split-by-header",
+    "type": "library",
+    "description": "A php class that splits a markdown text into a multi-dimensional array based on header level",
+    "homepage": "http://github.com/diversen/http-send-file",
+    "keywords": ["markdown", "splitter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Iversen",
+            "email": "dennis.iversen@gmail.com",
+            "homepage": "https://github.com/diversen",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "diversen\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
