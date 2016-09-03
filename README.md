@@ -2,7 +2,7 @@
 
 A php class that splits a markdown text into a multi-dimensional array
 
-## Example
+## Example and documentation
 
 See [test.php](test.php)
 
