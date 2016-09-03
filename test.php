@@ -1,6 +1,12 @@
 <?php
 
-include_once "split.php";
+
+use \diversen\markdownSplit;
+
+include_once "markdownSplit.php";
+
+// You wont need the above include_once statement if 
+// you have proper autoloading setup 
 
 $text = file_get_contents('README.md');
 
