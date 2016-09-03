@@ -1,6 +1,6 @@
 # markdown-split-by-header
 
-A php class that splits a markdown text into a multi-dimensional array
+A php class that splits a markdown text into a multi-dimensional array based on header level
 
 ## Example and documentation
 
