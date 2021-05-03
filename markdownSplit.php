@@ -50,7 +50,7 @@ class markdownSplit {
 			return $matches[0];
 		}
 		
-		$level = $matches[2]{0} == '=' ? '#' : '##';
+		$level = $matches[2][0] == '=' ? '#' : '##';
 		// ID attribute generation
 		return $block = $level. ' ' . $matches[1] . "\n\n";
 		// return "\n" . $this->hashBlock($block) . "\n\n";
